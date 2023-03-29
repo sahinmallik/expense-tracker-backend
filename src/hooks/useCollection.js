@@ -30,6 +30,9 @@ export const useCollection = (collection, _query, _orderBy) => {
         // update state
         setDocuments(results);
         setError(null);
+       
+        
+        
       },
       (error) => {
         console.log(error);

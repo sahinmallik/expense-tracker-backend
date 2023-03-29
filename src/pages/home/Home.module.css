@@ -46,6 +46,7 @@
 .sidebar h3 {
   color: #1f9751;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 .sidebar aside {
   margin-top: 40px;
@@ -67,9 +68,24 @@
   overflow: hidden;
   border-left: 4px solid #1f9751;
 }
+.totalExpense div {
+  margin: 30px auto;
+  border: 1px solid #f2f2f2;
+  box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid #1f9751;
+}
 .transactions .name {
   color: #777;
   font-size: 1.4em;
+}
+.totalExpense .total {
+  color: #777;
+  font-size: 1.5em;
 }
 .transactions .amount {
   margin-left: auto;
@@ -77,6 +93,13 @@
   color: #777;
   font-weight: bold;
   font-size: 1.6em;
+}
+.totalExpense .totalamount {
+  margin-left: auto;
+  margin-right: 40px;
+  color: #777;
+  font-weight: bold;
+  font-size: 1.8em;
 }
 .transactions button {
   position: absolute;
@@ -90,4 +113,8 @@
   line-height: 0;
   font-size: 0.9em;
   cursor: pointer;
+}
+.totalExpense {
+  max-width: 960px;
+  margin: 60px auto;
 }
